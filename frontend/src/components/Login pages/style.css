@@ -1,0 +1,136 @@
+.container {
+  background-image: url("https://images.unsplash.com/photo-1640690821275-c6aa1e1ccee3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 25px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+}
+
+.inputs label {
+  font-weight: bold;
+  width: 20%;
+}
+
+.inputs input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  transition: box-shadow 0.3s;
+}
+.inputs input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 01);
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.autocomplete .MuiAutocomplete-root {
+  width: 100%;
+}
+
+.autocomplete .MuiAutocomplete-inputRoot {
+  width: 100%;
+}
+
+.autocomplete .MuiInputLabel-outlined {
+  transform: translate(14px, 14px) scale(1);
+}
+
+.autocomplete .MuiInputLabel-shrink {
+  transform: translate(14px, -6px) scale(0.75);
+}
+
+.button {
+  margin-top: 1.5rem;
+  background-color: #4285f4;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 20%;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #4285f4;
+  border: 1px solid #4285f4;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #4285f4;
+}
+.interest {
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.selecter {
+  width: 80%;
+  padding-right: 0.5rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.containers {
+  background-image: url("https://images.unsplash.com/photo-1640690821275-c6aa1e1ccee3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.showPassword {
+  padding-left: 15rem;
+}

@@ -1,0 +1,202 @@
+.body {
+  display: grid;
+  padding: 3rem 3rem;
+  grid-template-columns: 50% 50%;
+}
+.left-side {
+  /* border: 1px grey solid; */
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.right-side {
+  height: 700px;
+}
+.quote {
+  text-align: start;
+  font-size: 30px;
+  font-weight: 700;
+}
+.desc {
+  width: 100%;
+}
+.desc p {
+  color: var(--grey);
+  margin-top: 1rem;
+  text-align: justify;
+  text-align: start;
+  width: 90%;
+  font-size: 17px;
+}
+.search-container {
+  width: 90%;
+  margin-top: 4rem;
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px lightgrey solid;
+  position: sticky;
+}
+.search-button {
+  border-radius: 100%;
+  width: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.search-input {
+  text-indent: 2rem;
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+}
+.search-input:focus {
+  outline: none;
+  border-color: #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.first-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px grey solid;
+  height: 300px;
+  text-align: start;
+  padding: 1rem 2rem;
+  background-image: url("https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: top;
+  border-radius: 35px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  transition: background-image 0.3s ease;
+}
+
+.first-div h1 {
+  color: white;
+  text-decoration: solid;
+}
+.button1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border: none;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+
+  transition: background-color 0.3s;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-weight: 500;
+}
+.button1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0);
+}
+.second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px grey solid;
+  border-radius: 25px;
+  height: 50px;
+  margin-top: 1.5rem;
+  background-color: black;
+  color: white;
+  padding: 0rem 2rem;
+  font-size: 20px;
+  position: sticky;
+}
+.third-div {
+  margin-top: 1.5rem;
+  height: 200px;
+  display: flex;
+  gap: 6%;
+}
+.left-div {
+  border: 1px grey solid;
+  width: 47%;
+  background-size: cover;
+  background-position: top;
+  border-radius: 35px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background-image: url("https://images.unsplash.com/photo-1520535119843-cd60086cbfaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-div {
+  border: 1px grey solid;
+  width: 47%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 35px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background-image: url("https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.third-div p {
+  font-size: 25px;
+  text-align: start;
+  padding: 0rem 1.5rem;
+  color: white;
+}
+.map {
+  align-items: center;
+  border: 1px grey solid;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  margin: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.map:hover {
+  transform: scale(1.1);
+}
+.navbar {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #333;
+}
+.logo {
+  height: 70px;
+  width: 4rem;
+}
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  padding-left: 3rem;
+}
+.title {
+  padding-left: 3rem;
+}
+
+.heading {
+  padding-left: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  padding-right: 3rem;
+}
+.profile:hover {
+  color: white;
+}
