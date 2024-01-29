@@ -28,7 +28,7 @@ const Homepage = () => {
   axios.defaults.withCredentials = true;
   useEffect(() => {
     axios
-      .get("https://hotel-app-backend-alpha.vercel.app")
+      .get("http://localhost:3001")
       .then((res) => {
         console.log(res.data);
       })
