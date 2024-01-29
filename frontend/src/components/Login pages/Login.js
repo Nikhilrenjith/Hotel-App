@@ -9,7 +9,7 @@ const Login = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
-
+axios.defaults.withCredentials=true;
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
