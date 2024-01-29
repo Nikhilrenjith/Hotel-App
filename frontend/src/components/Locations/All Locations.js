@@ -8,7 +8,7 @@ const Locations = () => {
   const [dataList, setDataList] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/images")
+    fetch("https://hotel-app-backend-alpha.vercel.app/images")
       .then((response) => response.json())
       .then((data) => setDataList(data))
       .catch((error) => console.error(error));

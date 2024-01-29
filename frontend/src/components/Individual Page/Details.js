@@ -28,7 +28,7 @@ const Details = () => {
   const mapUrl = `https://maps.google.com/maps?q=${latitude},${longitude}&hl=us&z=18&output=embed`;
   const key = "06b744e0e888b212e663ffb1421d464b";
   useEffect(() => {
-    axios.get(`http://localhost:3001/images/${id}`).then((response) => {
+    axios.get(`https://hotel-app-backend-alpha.vercel.app/images/${id}`).then((response) => {
       setPlace(response.data);
       setLatitude(response.data.Latitude);
       setLongitude(response.data.Longitude);
