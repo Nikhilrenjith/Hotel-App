@@ -9,13 +9,13 @@ const { Hotel } = require("./models/hotelSchema");
 const app = express();
 app.use(
   cors({
-    // origin: "https://hotel-app-frontend.vercel.app/",
-    // credentials: true,
+    origin: "https://hotel-app-frontend.vercel.app/",
+    credentials: true,
   })
 );
 app.use(express.json());
 app.use("/user", UserRouter);
-app.get("/", (req, res) => {
+app.get("/done", (req, res) => {
   res.send({
     message: "API is working fine",
   });
