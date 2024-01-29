@@ -45,7 +45,7 @@ function Signup() {
     };
 
     axios
-      .post("http://localhost:3001/user/register", {
+      .post("https://hotel-app-api-green.vercel.app/user/register", {
         lname,
         fname,
         email,
