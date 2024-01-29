@@ -9,7 +9,7 @@ const { Hotel } = require("./models/hotelSchema");
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://hotel-app-frontend.vercel.app/",
     credentials: true,
   })
 );

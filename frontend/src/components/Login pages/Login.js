@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/user/login", { email, password })
+      .post("https://hotel-app-backend-alpha.vercel.app/user/login", { email, password })
       .then((res) => {
         if (res.data.status === 1) {
           console.log("log in successful");
