@@ -15,10 +15,10 @@ app.use(
 );
 app.use(express.json());
 app.use("/user", UserRouter);
-app.get("/done", (req, res) => {
-  res.send({
-    message: "API is working fine",
-  });
+app.get("/", (req, res) => {
+  res.json(
+    "API is working fine"
+  );
 });
 //cards
 app.get("/images", async (req, res) => {
